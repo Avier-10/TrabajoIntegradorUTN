@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina De Ropa</title>
+    <link rel="stylesheet" href="Compras.CSS" />
+    <script src="Compras.js"></script>
+  </head>
+  <body>
+    <header id="Encabezado"></header>
+    <div id="BarraLateral">
+      <button
+        id="BotonCerrar"
+        class="FlechaApertura"
+        type="button"
+        onclick="Cerrado()"
+        style="display: inline; background-image: url(/img/Flechi.png)"
+      ></button>
+
+      <button
+        id="BotonAbrir"
+        class="FlechaApertura"
+        type="button"
+        onclick="Abierto()"
+        style="display: none; background-image: url(/img/Flechi2.png)"
+      ></button>
+    </div>
+
+    <div id="CuerpoPag"></div>
+  </body>
+
+  <script>
+    function Abierto() {
+      document.getElementById("BarraLateral").style.width = "150px";
+      document.getElementById("Encabezado").style.marginLeft = "150px";
+      document.getElementById("BotonAbrir").style.display = "none";
+      document.getElementById("BotonCerrar").style.display = "inline";
+    }
+    function Cerrado() {
+      document.getElementById("BarraLateral").style.width = "0px";
+      document.getElementById("Encabezado").style.marginLeft = "0px";
+      document.getElementById("BotonAbrir").style.display = "inline";
+      document.getElementById("BotonCerrar").style.display = "none";
+    }
+  </script>
+</html>

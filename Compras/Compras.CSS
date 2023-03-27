@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+}
+
+body {
+  position: sticky;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  filter: brightness(0.8);
+  background: linear-gradient(180deg, black, 35%, #29527a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 140px;
+  margin-left: 150px;
+  transition: 0.5s;
+}
+
+#BarraLateral {
+  background-color: #29527a;
+  height: 100%;
+  width: 150px;
+  opacity: 0.98;
+  position: fixed;
+  transition: 0.5s;
+  top: 0px;
+}
+
+.FlechaApertura {
+  position: absolute;
+  left: 82%;
+  height: 100%;
+  width: 28px;
+  border: 0px;
+  opacity: 0.54;
+  background-color: #e0fbfc;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50px 60px;
+}
+
+#CuerpoPag {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  display: grid;
+  grid-template-columns: 150px repeat(auto-fill, minmax(300px, auto));
+  grid-template-rows: 140px repeat(auto-fill, minmax(300px, auto));
+  grid-gap: 30px;
+}
+
+.CajaEstilo {
+  background-color: azure;
+  height: 150px;
+  width: 150px;
+  margin-right: 100px;
+  margin-left: 20px;
+}
