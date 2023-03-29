@@ -8,6 +8,7 @@ window.onload = function GeneradorDeCajas() {
     { titulo: "Título 6", contenido: "Contenido del sexto div" },
     { titulo: "Título 7", contenido: "Contenido del septimo div" },
     { titulo: "Título 8", contenido: "Contenido del octavo div" },
+    { titulo: "Título 9", contenido: "Contenido del noveno div" },
   ];
   var Columna = 1;
   var Fila = 2;
@@ -17,6 +18,9 @@ window.onload = function GeneradorDeCajas() {
     Caja.id = "Caja" + [i];
     Caja.className = "CajaEstilo";
 
+    const BotonComprar = document.createElement("button");
+    Caja.appendChild(BotonComprar);
+    
     document.getElementById("CuerpoPag").appendChild(Caja);
 
     if (Columna < 4) {

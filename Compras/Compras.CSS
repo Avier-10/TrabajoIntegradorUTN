@@ -1,22 +1,26 @@
 html {
   height: 100%;
-}
-
-body {
-  position: sticky;
-  margin: 0%;
-  height: 100%;
   width: 100%;
+}
+body {
+  background-color: blue;
+  margin: 0;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 header {
   filter: brightness(0.8);
   background: linear-gradient(180deg, black, 35%, #29527a);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 140px;
+  min-width: 100%;
   margin-left: 150px;
   transition: 0.5s;
+}
+
+p {
+  margin: 0%;
+  background-color: darkorchid;
 }
 
 #BarraLateral {
@@ -44,22 +48,21 @@ header {
 
 #CuerpoPag {
   background-color: blue;
-  height: 100%;
-  width: 100%;
+  display: grid;
   position: absolute;
   top: 0px;
   z-index: -1;
-  display: grid;
-  grid-template-columns: 150px repeat(auto-fill, minmax(300px, auto));
-  grid-template-rows: 140px repeat(auto-fill, minmax(300px, auto));
+  grid-template-columns: 150px repeat(auto-fill, minmax(400px, auto));
+  grid-template-rows: 140px repeat(auto-fill, minmax(400px, auto));
   grid-gap: 30px;
 }
 
 .CajaEstilo {
-  background-color: azure;
-  height: 150px;
-  width: 150px;
-  margin-right: 100px;
-  margin-left: 20px;
-  
+  background-color: violet;
+  height: 300px;
+  width: 220px;
+  margin: 60px;
+  border-color: black;
+  border: 2px;
+  border-style: solid;
 }
