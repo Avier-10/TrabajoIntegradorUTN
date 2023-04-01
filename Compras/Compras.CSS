@@ -14,8 +14,13 @@ header {
   background: linear-gradient(180deg, black, 35%, #29527a);
   height: 140px;
   min-width: 100%;
-  margin-left: 150px;
   transition: 0.5s;
+  position: fixed;
+  margin-left: 150px;
+  padding-left: 28px;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 p {
@@ -31,6 +36,8 @@ p {
   position: fixed;
   transition: 0.5s;
   top: 0px;
+  left: 0px;
+  z-index: 2;
 }
 
 .FlechaApertura {
@@ -49,10 +56,7 @@ p {
 #CuerpoPag {
   background-color: blue;
   display: grid;
-  position: absolute;
-  top: 0px;
-  z-index: -1;
-  grid-template-columns: 150px repeat(auto-fill, minmax(400px, auto));
+  grid-template-columns: 150px repeat(auto-fit, minmax(300px, auto));
   grid-template-rows: 140px repeat(auto-fill, minmax(400px, auto));
   grid-gap: 30px;
 }
@@ -65,4 +69,14 @@ p {
   border-color: black;
   border: 2px;
   border-style: solid;
+  position: sticky;
+}
+
+.BotonComprar {
+  width: 100px;
+  height: 45px;
+  position: absolute;
+  top: 214px;
+  left: 40px;
+  margin: 20px;
 }

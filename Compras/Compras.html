@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="/TrabajoIntegradorUTN/Compras/Compras.CSS" />
     <script src="Compras.js"></script>
     <script>
-    function Abierto() {
-      document.getElementById("BarraLateral").style.width = "150px";
-      document.getElementById("Encabezado").style.marginLeft = "150px";
-      document.getElementById("BotonAbrir").style.display = "none";
-      document.getElementById("BotonCerrar").style.display = "inline";
-      document.getElementById("CuerpoPag").style.gridTemplateColumns =
-        "150px repeat(auto-fill, minmax(400px, auto))";
-    }
-    function Cerrado() {
-      document.getElementById("BarraLateral").style.width = "0px";
-      document.getElementById("Encabezado").style.marginLeft = "0px";
-      document.getElementById("BotonAbrir").style.display = "inline";
-      document.getElementById("BotonCerrar").style.display = "none";
-      document.getElementById("CuerpoPag").style.gridTemplateColumns =
-        "0px repeat(auto-fill, minmax(400px, auto))";
-    }
-  </script>
+      function Abierto() {
+        document.getElementById("BarraLateral").style.width = "150px";
+        document.getElementById("Encabezado").style.marginLeft = "150px";
+        document.getElementById("BotonAbrir").style.display = "none";
+        document.getElementById("BotonCerrar").style.display = "inline";
+        document.getElementById("CuerpoPag").style.gridTemplateColumns =
+          "150px repeat(auto-fill, minmax(400px, auto))";
+      }
+      function Cerrado() {
+        document.getElementById("BarraLateral").style.width = "0px";
+        document.getElementById("Encabezado").style.marginLeft = "0px";
+        document.getElementById("BotonAbrir").style.display = "inline";
+        document.getElementById("BotonCerrar").style.display = "none";
+        document.getElementById("CuerpoPag").style.gridTemplateColumns =
+          "0px repeat(auto-fill, minmax(400px, auto))";
+      }
+    </script>
   </head>
   <body>
     <header id="Encabezado">
@@ -32,30 +32,29 @@
     </header>
 
     <nav id="BarraLateral">
-     
-        <button
-          id="BotonCerrar"
-          class="FlechaApertura"
-          type="button"
-          onclick="Cerrado()"
-          style="
-            display: inline;
-            background-image: url(/TrabajoIntegradorUTN/img/Flechi.png);
-          "
-        ></button>
+      <button
+        id="BotonCerrar"
+        class="FlechaApertura"
+        type="button"
+        onclick="Cerrado()"
+        style="
+          display: inline;
+          background-image: url(/TrabajoIntegradorUTN/img/Flechi.png);
+        "
+      ></button>
 
-        <button
-          id="BotonAbrir"
-          class="FlechaApertura"
-          type="button"
-          onclick="Abierto()"
-          style="
-            display: none;
-            background-image: url(/TrabajoIntegradorUTN/img/Flechi2.png);
-          "
-        ></button>
-      
+      <button
+        id="BotonAbrir"
+        class="FlechaApertura"
+        type="button"
+        onclick="Abierto()"
+        style="
+          display: none;
+          background-image: url(/TrabajoIntegradorUTN/img/Flechi2.png);
+        "
+      ></button>
     </nav>
+    
 
     <main id="CuerpoPag"></main>
   </body>
