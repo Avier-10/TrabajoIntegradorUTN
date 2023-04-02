@@ -1,16 +1,48 @@
 window.onload = function GeneradorDeCajas() {
   var DatosRopa = [
-    { titulo: "Título 1", contenido: "Contenido del primer div" },
-    { titulo: "Título 2", contenido: "Contenido del segundo div" },
-    { titulo: "Título 3", contenido: "Contenido del tercer div" },
-    { titulo: "Título 4", contenido: "Contenido del cuarto div" },
-    { titulo: "Título 5", contenido: "Contenido del quinto div" },
-    { titulo: "Título 6", contenido: "Contenido del sexto div" },
-    { titulo: "Título 7", contenido: "Contenido del septimo div" },
-    { titulo: "Título 8", contenido: "Contenido del octavo div" },
-    { titulo: "Título 9", contenido: "Contenido del noveno div" },
-    { titulo: "Título 10", contenido: "Contenido del decimo div" },
+    {
+      Titulo: "Título 1",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
+      Tipo:
+    },
+    {
+      Titulo: "Título 2",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
+    },
+    {
+      Titulo: "Título 3",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
+    },
+    {
+      Titulo: "Título 4",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
+    },
+    {
+      Titulo: "Título 5",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
+    },
+    {
+      Titulo: "Título 6",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
+    },
+    {
+      Titulo: "Título 7",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
+    },
+    {
+      Titulo: "Título 8",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
+    },
+    {
+      Titulo: "Título 9",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
+    },
+    {
+      Titulo: "Título 10",
+      Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
+    },
   ];
+
   var Columna = 1;
   var Fila = 2;
 
@@ -26,8 +58,8 @@ window.onload = function GeneradorDeCajas() {
 
     const Img = document.createElement("img");
     Caja.appendChild(Img);
-    Img.className="EstiloImg";
-    Img.src = "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg";
+    Img.className = "EstiloImg";
+    Img.src = DatosRopa[i].Imagen;
 
     if (Columna < 4) {
       Columna++;
