@@ -20,7 +20,7 @@ header {
   padding-left: 28px;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 998;
 }
 
 p {
@@ -29,7 +29,7 @@ p {
 }
 
 #BarraLateral {
-  background-color: #29527a;
+  background-color: #cc2eb2;
   height: 100%;
   width: 150px;
   opacity: 0.98;
@@ -37,14 +37,14 @@ p {
   transition: 0.5s;
   top: 0px;
   left: 0px;
-  z-index: 2;
+  z-index: 999;
 }
 
 .FlechaApertura {
   position: absolute;
   left: 82%;
   height: 100%;
-  width: 28px;
+  width: 27px;
   border: 0px;
   opacity: 0.54;
   background-color: #e0fbfc;
@@ -80,7 +80,7 @@ p {
   left: 40px;
   margin: 20px;
 }
-.EstiloImg{
+.EstiloImg {
   height: 220px;
   width: 220px;
 }
