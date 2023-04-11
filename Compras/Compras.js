@@ -1,4 +1,4 @@
-var E;
+var E = 0;
 var Flag = 0;
 var NumBorrar = 0;
 var DatosRopa_Pantalon = [];
@@ -56,7 +56,9 @@ var DatosRopa_Inicial = [
   },
 ];
 var DatosRopa = [DatosRopa_Inicial, DatosRopa_Pantalon, DatosRopa_Buzo]; // Creo un Array que contiene lo datos Filtrados y sin Filtrar
-
+if (Flag == 0) {
+  GeneradorDeCajas(E);
+}
 function FiltPantalon() {
   DatosRopa_Pantalon = DatosRopa_Inicial.filter(
     (Elem) => Elem.Tipo === "Pantalon"
@@ -76,8 +78,9 @@ function GeneradorDeCajas(E) {
   var Columna = 1;
   var Fila = 2;
 
-  //BORRAR
+  //Borro la cantidad de cajas anteriores
   if (Flag == 1) {
+    //Agrego un Flag para saber si porlomenos se ejecuto una vez el codigo
     for (j = NumBorrar; j >= 0; j--) {
       const CuerpoPagina = document.getElementById("CuerpoPag");
       const CajaElimin = document.getElementById("Caja" + j);
@@ -85,7 +88,7 @@ function GeneradorDeCajas(E) {
     }
   }
   if (E === 0) {
-    NumBorrar = DatosRopa_Inicial.length - 1; // Atencion con el -1
+    NumBorrar = DatosRopa_Inicial.length - 1; //Le resto 1 para tener la cantidad necesaria a borrar
   } else if (E === 1) {
     NumBorrar = DatosRopa_Pantalon.length - 1;
   } else {

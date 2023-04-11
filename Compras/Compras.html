@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pagina De Ropa</title>
     <link rel="stylesheet" href="/TrabajoIntegradorUTN/Compras/Compras.CSS" />
+    <link
+      rel="stylesheet"
+      href="/TrabajoIntegradorUTN/FooterPagina/FooterPagina.css"
+    />
+
     <script src="Compras.js"></script>
     <script>
       function Abierto() {
@@ -15,6 +20,11 @@
         document.getElementById("BotonCerrar").style.display = "inline";
         document.getElementById("CuerpoPag").style.gridTemplateColumns =
           "150px repeat(auto-fill, minmax(400px, auto))";
+        const LargoClass = document.getElementsByClassName("BotonFiltro");
+        for (let i = 0; i < LargoClass.length; i++) {
+          LargoClass[i].style.display = "inline";
+        }
+        
       }
       function Cerrado() {
         document.getElementById("BarraLateral").style.width = "0px";
@@ -23,6 +33,10 @@
         document.getElementById("BotonCerrar").style.display = "none";
         document.getElementById("CuerpoPag").style.gridTemplateColumns =
           "0px repeat(auto-fill, minmax(400px, auto))";
+        const LargoClass = document.getElementsByClassName("BotonFiltro");
+        for (let i = 0; i < LargoClass.length; i++) {
+          LargoClass[i].style.display = "none";     
+        }
       }
     </script>
   </head>
@@ -55,10 +69,15 @@
         "
       ></button>
 
-      <button onclick="GeneradorDeCajas(0)">Todo</button>
-      <button onclick="FiltPantalon()">Pantalon</button>
-      <button onclick="FiltBuzo()">Buzo</button>
+      <button class="BotonFiltro" onclick="GeneradorDeCajas(0)">Todo</button>
+      <button class="BotonFiltro" onclick="FiltPantalon()">Pantalon</button>
+      <button class="BotonFiltro" onclick="FiltBuzo()">Buzo</button>
     </nav>
-    <main id="CuerpoPag"></main>
+    <main id="CuerpoPag">
+      <script src="Compras.js"></script>
+    </main>
+    <footer class="top">
+      <div class="footer">&copy;<span> 2023 Activate Argentina.</span></div>
+    </footer>
   </body>
 </html>
