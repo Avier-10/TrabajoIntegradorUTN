@@ -1,4 +1,6 @@
 var E;
+var Flag = 0;
+var NumBorrar = 0;
 var DatosRopa_Pantalon = [];
 var DatosRopa_Buzo = [];
 var DatosRopa_Inicial = [
@@ -53,36 +55,49 @@ var DatosRopa_Inicial = [
     Tipo: "Buzo",
   },
 ];
-var DatosRopa = [DatosRopa_Inicial, DatosRopa_Pantalon, DatosRopa_Buzo];
+var DatosRopa = [DatosRopa_Inicial, DatosRopa_Pantalon, DatosRopa_Buzo]; // Creo un Array que contiene lo datos Filtrados y sin Filtrar
 
 function FiltPantalon() {
   DatosRopa_Pantalon = DatosRopa_Inicial.filter(
-    (Tip) => Tip.Tipo === "Pantalon"
-  );
+    (Elem) => Elem.Tipo === "Pantalon"
+  ); //Busco y filtro con la palabra clave "Pantalon"
   E = 1;
-  DatosRopa[1] = DatosRopa_Pantalon;
+  DatosRopa[1] = DatosRopa_Pantalon; //Guardo en el Nuevo Array
   GeneradorDeCajas(E);
 }
 function FiltBuzo() {
-  DatosRopa_Buzo = DatosRopa_Inicial.filter((Tip) => Tip.Tipo === "Buzo");
+  DatosRopa_Buzo = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "Buzo"); //Busco y filtro con la palabra clave "Buzo"
   E = 2;
-  DatosRopa[2] = DatosRopa_Buzo;
+  DatosRopa[2] = DatosRopa_Buzo; //Guardo en el Nuevo Array
   GeneradorDeCajas(E);
 }
 
 function GeneradorDeCajas(E) {
   var Columna = 1;
   var Fila = 2;
-  var i = 0;
 
-  for (i; i < DatosRopa[E].length; i++) {
-    console.log(DatosRopa);
-    
+  //BORRAR
+  if (Flag == 1) {
+    for (j = NumBorrar; j >= 0; j--) {
+      const CuerpoPagina = document.getElementById("CuerpoPag");
+      const CajaElimin = document.getElementById("Caja" + j);
+      CuerpoPagina.removeChild(CajaElimin);
+    }
+  }
+  if (E === 0) {
+    NumBorrar = DatosRopa_Inicial.length - 1; // Atencion con el -1
+  } else if (E === 1) {
+    NumBorrar = DatosRopa_Pantalon.length - 1;
+  } else {
+    NumBorrar = DatosRopa_Buzo.length - 1;
+  }
+  /////////////////////////////////////////
+  for (i = 0; i < DatosRopa[E].length; i++) {
     //Creacion De Cajas Dinamico
     const Caja = document.createElement("div");
-    Caja.id = "Caja" + [i];
+    Caja.id = "Caja" + i;
     Caja.className = "CajaEstilo";
-    document.getElementById("CuerpoPag").appendChild(Caja); //Busco La ID del Cuerpo de Pagina y le agrego un elemento Hijo
+    document.getElementById("CuerpoPag").appendChild(Caja); //Busco La ID del Cuerpo de Pagina y le agrego un elemento Hijo al Padre
 
     // Creacion de Botones en los Elementos Cajas
     const BotonComprar = document.createElement("button");
@@ -106,4 +121,5 @@ function GeneradorDeCajas(E) {
       Caja.style.gridRow = Fila;
     }
   }
+  Flag = 1;
 }
