@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi tienda de ropa</title>
+    
+    <style>
+      /* Estilo para el encabezado */
+      header {
+        
+        background-color: #c2528b;
+        color: #F380B9;
+        padding: 20px;
+        text-align: center;
+      }
+     
+      body{
+        background-color: #ffd9ee;
+      }
+      h1 {
+        margin: 0;
+      }
+      
+      main {
+        max-width: 960px; 
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .row {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      /* Estilo para los productos */
+      .product-container {
+        background-color: #5f50a9;
+        border: 2px solid #9652c2;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 20px 2.5%; 
+        padding:20px;
+        text-align: center;
+        width: 30%; 
+        border-radius: 30px;
+        display: inline-block; 
+        vertical-align: top; 
+      }
+
+      .product-container:hover {
+        transform: scale(1.1);
+      }
+
+      
+      .flecha {
+        position: absolute;
+        bottom: -500px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: solid #884f75;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 10px;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+      }
+  
+      .flecha:hover {
+        transform: translateY(-3px);
+      }
+
+      .product-container img { 
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>  
+     
+      </div>
+      <meta charset="UTF-8">
+      <h1>Activate - Ropa Deportiva</h1>
+    <link rel="stylesheet" href="style.css">
+    </header>
+    <main>
+      <div class="row">
+        <div class="product-container"> 
+          <img src="ropa6.jpg" alt="Producto 1">
+          <p>Remera mas calza Deportiva</p>
+          <span>$2500</span>
+        </div>
+        <div class="product-container">
+          <img src="ropa4.jpg" alt="Producto 2">
+          <p>Conjunto deportivo Completo</p>
+          <span>$20.000</span>
+        </div>
+        <div class="product-container">
+          <img src="ropa5.jpg" alt="Producto 3">
+          <p>Conjunto completo de la seleccion</p>
+          <span>$30.000</span>
+        </div>
+      </div>
+      <div class="row">
+      <div class="product-container">
+        <img src="clase7.jpg" alt="Producto 4">
+        <p>Zapatillas Nike </p>
+        <span>$25.000</span>
+      </div>
+      <div class="product-container">
+        <img src="ropa8.jpg" alt="Producto 3">
+        <p>Campera Deportiva</p>
+        <span>$15.000</span>
+      </div>
+      <div class="product-container">
+        <img src="ropa10.jpg" alt="Producto 3">
+        <p>Remera basica de entrenamiento</p>
+        <span>$2000</span>
+      </div>
+    </div>
+      
+      <a href="#" class="flecha">Ver más productos</a>
+    </main>
+
+    <script>
+      
+      var botonFlecha = document.querySelector('.flecha');
+
+       
+       botonFlecha.addEventListener('click', function(event) {
+        
+        event.preventDefault();
+
+        
+        var productos = document.querySelector('.product-container');
+        productos.scrollIntoView({ behavior: 'smooth' });
+      });
+    </script>
+  </body>
+</html>
