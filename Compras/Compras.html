@@ -15,12 +15,16 @@
       type="text/css"
       href="/TrabajoIntegradorUTN/FooterPagina/FooterPagina.css"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/TrabajoIntegradorUTN/BarraNavegacion/BarraNavegacion.css"
+    />
 
-    <script src="Compras.js"></script>
     <script>
       function Abierto() {
         document.getElementById("BarraLateral").style.width = "150px";
-        document.getElementById("Encabezado").style.marginLeft = "150px";
+       document.getElementById("header").style.marginLeft = "150px";
         document.getElementById("BotonAbrir").style.display = "none";
         document.getElementById("BotonCerrar").style.display = "inline";
         document.getElementById("CuerpoPag").style.gridTemplateColumns =
@@ -32,7 +36,7 @@
       }
       function Cerrado() {
         document.getElementById("BarraLateral").style.width = "0px";
-        document.getElementById("Encabezado").style.marginLeft = "0px";
+        document.getElementById("header").style.marginLeft = "0px";
         document.getElementById("BotonAbrir").style.display = "inline";
         document.getElementById("BotonCerrar").style.display = "none";
         document.getElementById("CuerpoPag").style.gridTemplateColumns =
@@ -46,8 +50,18 @@
   </head>
 
   <body>
-    <header id="Encabezado">
-      <p>Contenidooo</p>
+   <header id="header">
+        <div class="logo">
+            <a href="/TrabajoIntegradorUTN/Pagina Inicio/pagina de inicio valen.html"><img src="/TrabajoIntegradorUTN/img/Logo Activate.png" alt="logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="/TrabajoIntegradorUTN/Compras/Compras.html">Tienda</a></li>
+                <li><a href="#" >Carrito</a></li>
+                <li><a href="/TrabajoIntegradorUTN/PresentacionPersonal/PresentacionPersonal.html">¿Quiénes somos?</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn"><button>Contacto</button></a>
     </header>
 
     <nav id="BarraLateral">

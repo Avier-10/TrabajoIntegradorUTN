@@ -3,9 +3,8 @@ body {
     font-family: Courier 'Courier New', Courier, monospace, sans-serif;
     margin: 0;
     padding: 0;
-  }bb
-  
-  header {
+  }
+  bb header {
     background-color: #9652c2(146, 20, 138);
     border-bottom: 1px solid #ccc;
     padding: 20px;

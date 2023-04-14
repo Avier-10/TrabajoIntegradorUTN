@@ -10,8 +10,6 @@ body {
 }
 
 header {
-  filter: brightness(0.8);
-  background: linear-gradient(180deg, black, 35%, #29527a);
   height: 140px;
   min-width: 100%;
   transition: 0.5s;

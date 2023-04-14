@@ -56,9 +56,11 @@ var DatosRopa_Inicial = [
   },
 ];
 var DatosRopa = [DatosRopa_Inicial, DatosRopa_Pantalon, DatosRopa_Buzo]; // Creo un Array que contiene lo datos Filtrados y sin Filtrar
+
 if (Flag == 0) {
   GeneradorDeCajas(E);
 }
+
 function FiltPantalon() {
   DatosRopa_Pantalon = DatosRopa_Inicial.filter(
     (Elem) => Elem.Tipo === "Pantalon"
@@ -67,6 +69,7 @@ function FiltPantalon() {
   DatosRopa[1] = DatosRopa_Pantalon; //Guardo en el Nuevo Array
   GeneradorDeCajas(E);
 }
+
 function FiltBuzo() {
   DatosRopa_Buzo = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "Buzo"); //Busco y filtro con la palabra clave "Buzo"
   E = 2;
