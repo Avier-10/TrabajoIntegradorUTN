@@ -1,79 +1,209 @@
 var E = 0;
 var Flag = 0;
 var NumBorrar = 0;
-var DatosRopa_Pantalon = [];
-var DatosRopa_Buzo = [];
+var DatosRopa_PantalonH = [];
+var DatosRopa_BuzoH = [];
+var DatosRopa_BuzoM = [];
+var DatosRopa_CalzaM = [];
+var DatosRopa_CampH = [];
+var DatosRopa_CampM = [];
+var DatosRopa_ZapH = [];
+var DatosRopa_ZapM = [];
 var DatosRopa_Inicial = [
   {
-    Titulo: "Título 1",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
-    Tipo: "Pantalon",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre1.jpg",
+    Tipo: "ZapH",
   },
   {
-    Titulo: "Título 2",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
-    Tipo: "Buzo",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperahombre1.jpg",
+    Tipo: "CampH",
   },
   {
-    Titulo: "Título 3",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
-    Tipo: "Pantalon",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer1.jpg",
+    Tipo: "ZapM",
   },
   {
-    Titulo: "Título 4",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
-    Tipo: "Buzo",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperamujer1.jpg",
+    Tipo: "CampM",
   },
   {
-    Titulo: "Título 5",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
-    Tipo: "Pantalon",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre1.jpg",
+    Tipo: "PantalonH",
   },
   {
-    Titulo: "Título 6",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
-    Tipo: "Buzo",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperahombre2.jpg",
+    Tipo: "CampH",
   },
   {
-    Titulo: "Título 7",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
-    Tipo: "Pantalon",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/calzamujer1.jpg",
+    Tipo: "CalzaM",
   },
   {
-    Titulo: "Título 8",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
-    Tipo: "Buzo",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperamujer2.jpg",
+    Tipo: "CampM",
   },
   {
-    Titulo: "Título 9",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-1.jpg",
-    Tipo: "Pantalon",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzomujer1.jpg",
+    Tipo: "BuzoM",
   },
   {
-    Titulo: "Título 10",
-    Imagen: "/TrabajoIntegradorUTN/img/Imagen-Deportiva-2.jpg",
-    Tipo: "Buzo",
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperahombre3.jpg",
+    Tipo: "CampH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer2.jpg",
+    Tipo: "ZapM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperahombre4.jpg",
+    Tipo: "CampH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/calzamujer2.jpg",
+    Tipo: "CalzaM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzohombre1.jpg",
+    Tipo: "BuzoH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperamujer3.jpg",
+    Tipo: "CampM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzomujer2.jpg",
+    Tipo: "BuzoM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer3.jpg",
+    Tipo: "ZapM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre2.jpg",
+    Tipo: "PantalonH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre2.jpg",
+    Tipo: "ZapH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperahombre5.jpeg",
+    Tipo: "CampH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzohombre2.jpg",
+    Tipo: "BuzoH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzomujer3.jpg",
+    Tipo: "BuzoM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre3.jpg",
+    Tipo: "PantalonH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer4.jpg",
+    Tipo: "ZapM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/camperamujer4.jpg",
+    Tipo: "CampM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre3.jpg",
+    Tipo: "ZapH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzohombre3.jpg",
+    Tipo: "BuzoH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre4.jpg",
+    Tipo: "PantalonH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzomujer4.jpg",
+    Tipo: "BuzoM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/calzamujer3.jpg",
+    Tipo: "CalzaM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzohombre4.jpg",
+    Tipo: "BuzoH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre4.jpg",
+    Tipo: "ZapH",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzomujer5.jpg",
+    Tipo: "BuzoM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/buzohombre5.jpg",
+    Tipo: "BuzoH  ",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/calzamujer4.jpg",
+    Tipo: "CalzaM",
+  },
+  {
+    Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer5.jpg",
+    Tipo: "ZapM",
   },
 ];
-var DatosRopa = [DatosRopa_Inicial, DatosRopa_Pantalon, DatosRopa_Buzo]; // Creo un Array que contiene lo datos Filtrados y sin Filtrar
+var DatosRopa = [
+  DatosRopa_Inicial,
+  DatosRopa_PantalonH,
+  DatosRopa_BuzoH,
+  DatosRopa_BuzoM,
+  DatosRopa_CalzaM,
+  DatosRopa_CampH,
+  DatosRopa_CampM,
+  DatosRopa_ZapH,
+  DatosRopa_ZapM,
+]; // Creo un Array que contiene lo datos Filtrados y sin Filtrar
 
 if (Flag == 0) {
-  GeneradorDeCajas(E);
-}
-
-function FiltPantalon() {
-  DatosRopa_Pantalon = DatosRopa_Inicial.filter(
-    (Elem) => Elem.Tipo === "Pantalon"
-  ); //Busco y filtro con la palabra clave "Pantalon"
-  E = 1;
-  DatosRopa[1] = DatosRopa_Pantalon; //Guardo en el Nuevo Array
-  GeneradorDeCajas(E);
-}
-
-function FiltBuzo() {
-  DatosRopa_Buzo = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "Buzo"); //Busco y filtro con la palabra clave "Buzo"
-  E = 2;
-  DatosRopa[2] = DatosRopa_Buzo; //Guardo en el Nuevo Array
   GeneradorDeCajas(E);
 }
 
@@ -90,12 +220,36 @@ function GeneradorDeCajas(E) {
       CuerpoPagina.removeChild(CajaElimin);
     }
   }
-  if (E === 0) {
-    NumBorrar = DatosRopa_Inicial.length - 1; //Le resto 1 para tener la cantidad necesaria a borrar
-  } else if (E === 1) {
-    NumBorrar = DatosRopa_Pantalon.length - 1;
-  } else {
-    NumBorrar = DatosRopa_Buzo.length - 1;
+  //////////////////////////////////////////
+  switch (E) {
+    case 0:
+      NumBorrar = DatosRopa_Inicial.length - 1; //Le resto 1 para tener la cantidad necesaria a borrar
+      break;
+    case 1:
+      NumBorrar = DatosRopa_PantalonH.length - 1;
+      break;
+    case 2:
+      NumBorrar = DatosRopa_BuzoH.length - 1;
+      break;
+    case 3:
+      NumBorrar = DatosRopa_BuzoM.length - 1;
+      break;
+    case 4:
+      NumBorrar = DatosRopa_CalzaM.length - 1;
+      break;
+    case 5:
+      NumBorrar = DatosRopa_CampH.length - 1;
+      break;
+    //
+    case 6:
+      NumBorrar = DatosRopa_CampM.length - 1;
+      break;
+    case 7:
+      NumBorrar = DatosRopa_ZapH.length - 1;
+      break;
+    case 8:
+      NumBorrar = DatosRopa_ZapM.length - 1;
+      break;
   }
   /////////////////////////////////////////
   for (i = 0; i < DatosRopa[E].length; i++) {
@@ -128,4 +282,55 @@ function GeneradorDeCajas(E) {
     }
   }
   Flag = 1;
+}
+////////////////////////////////////////////////////////////////////////////////////////
+function FiltPantalonH() {
+  DatosRopa_PantalonH = DatosRopa_Inicial.filter(
+    (Elem) => Elem.Tipo === "PantalonH"
+  ); //Busco y filtro con la palabra clave "Pantalon"
+  E = 1;
+  DatosRopa[1] = DatosRopa_PantalonH; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
+}
+function FiltBuzoH() {
+  DatosRopa_BuzoH = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "BuzoH"); //Busco y filtro con la palabra clave "Buzo"
+  E = 2;
+  DatosRopa[2] = DatosRopa_BuzoH; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
+}
+function FiltBuzoM() {
+  DatosRopa_BuzoM = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "BuzoM"); //Busco y filtro con la palabra clave "Buzo"
+  E = 3;
+  DatosRopa[3] = DatosRopa_BuzoM; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
+}
+function FiltCalzaM() {
+  DatosRopa_CalzaM = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "CalzaM"); //Busco y filtro con la palabra clave "Buzo"
+  E = 4;
+  DatosRopa[4] = DatosRopa_CalzaM; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
+}
+function FiltCampH() {
+  DatosRopa_CampH = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "CampH"); //Busco y filtro con la palabra clave "Buzo"
+  E = 5;
+  DatosRopa[5] = DatosRopa_CampH; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
+}
+function FiltCampM() {
+  DatosRopa_CampM = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "CampM"); //Busco y filtro con la palabra clave "Buzo"
+  E = 6;
+  DatosRopa[6] = DatosRopa_CampM; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
+}
+function FiltZapH() {
+  DatosRopa_ZapH = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "ZapH"); //Busco y filtro con la palabra clave "Buzo"
+  E = 7;
+  DatosRopa[7] = DatosRopa_ZapH; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
+}
+function FiltZapM() {
+  DatosRopa_ZapM = DatosRopa_Inicial.filter((Elem) => Elem.Tipo === "ZapM"); //Busco y filtro con la palabra clave "Buzo"
+  E = 8;
+  DatosRopa[8] = DatosRopa_ZapM; //Guardo en el Nuevo Array
+  GeneradorDeCajas(E);
 }
