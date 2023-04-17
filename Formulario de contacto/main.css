@@ -1,0 +1,70 @@
+body{
+background: #f380b9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5f50a9, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5f50a9, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    color: #C2528B;
+    
+}
+
+a{
+    font-family: 'Dosis', sans-serif;
+
+}
+
+header p{
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+header h2{
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    color: #C2528B;
+}
+
+div{
+    position: absolute;
+    left: 25%;
+}
+
+
+.contact label, .contact input, .contact textarea{
+     display: block;
+     width: 300%;
+     margin-bottom: 15px;
+     font-family: 'Dosis', sans-serif;
+    
+}
+
+.contact input, .contact textarea{
+  padding: 10px;
+  border: 3px solid #C2528B;
+}
+
+
+
+
+/*Boton Enviar formulario*/
+#boton{
+    width: 180%;
+    background-color: #C2528B;
+    color: white;
+    padding: 14px;
+    margin-left: 70%;
+    border: none;
+    border-radius: 20px;
+}
+#boton:hover{
+    background-color: #f380b9;
+}
+
