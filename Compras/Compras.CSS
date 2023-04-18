@@ -2,6 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   background-color: #f3d9dc;
   margin: 0;
@@ -19,6 +20,13 @@ header {
   top: 0;
   left: 0;
   z-index: 998;
+}
+
+p {
+  position: sticky;
+  font-family: "Sans-Serif";
+  text-align: center;
+  margin-top: 15px;
 }
 
 #BarraLateral {
@@ -40,51 +48,73 @@ header {
   width: 27px;
   border: 0px;
   opacity: 0.54;
-  background-color: #e0fbfc;
+  background-color:  rgb(243, 128, 185);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50px 60px;
 }
 
 #CuerpoPag {
-  background-color: #f3d9dc;
+  background-color: white;
   display: grid;
   grid-template-columns: 150px repeat(auto-fit, minmax(300px, auto));
-  grid-template-rows: 140px repeat(auto-fill, minmax(400px, auto));
+  grid-template-rows: 85px repeat(auto-fill, minmax(400px, auto));
   grid-gap: 30px;
 }
 
 .CajaEstilo {
-  background-color: #c5fffd;
-  height: 300px;
+  background-color: rgb(243, 128, 185);
+  height: 360px;
   width: 220px;
   margin: 60px;
-  border-color: black;
-  border: 2px;
+  border-color: rgb(243, 128, 185);
   border-style: solid;
   position: sticky;
+  border-radius: 20px;
 }
 
 .BotonComprar {
-  width: 80px;
-  height: 30px;
   position: absolute;
-  border: 0px;
-  top: 245px;
-  left: 114px;
-  margin: 20px;
-  background-color: green;
+  top: 370px;
+  left: 67px;
+  background-color: rgb(243, 128, 185);
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 6px;
+  color: #111827;
+  font-family: "Segoe UI";
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.BotonComprar:hover {
+  background-color: chartreuse;
+}
+.BotonComprar:focus {
+  outline: 2px solid chartreuse;
+  outline-offset: 2px;
 }
 
 .EstiloImg {
   height: 300px;
   width: 220px;
+  border-radius: 20px 20px 0px 0px;
 }
 
 .BotonFiltro {
   height: 50px;
   width: 100%;
+  margin-top: 20px;
   border: 0px;
   font-weight: bold;
   background-color: #9652c2;
+}
+.BotonFiltro:hover{
+background-color:rgb(243, 128, 185);
+opacity: 0.8;
+}
+.BotonFiltro:active{
+  background-color: aliceblue;
+  opacity: 0.3;
 }

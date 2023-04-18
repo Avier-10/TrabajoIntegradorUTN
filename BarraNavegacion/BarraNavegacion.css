@@ -4,9 +4,10 @@
   padding: 0;
   font-size: 20px;
 }
-.logo {
+#logo {
   margin-left: 50px;
   margin-right: 50px;
+  transition: 0.5s;
 }
 .btn {
   margin-left: 120px;
@@ -23,17 +24,17 @@
   height: 85px;
 }
 
-#header .logo img {
+#header #logo img {
   height: 80px;
   width: auto;
   transition: all 0.3s;
 }
 
-#header .logo img:hover {
+#header #logo img:hover {
   transform: scale(1.2);
 }
 
-#header .logo {
+#header #logo {
   cursor: pointer;
 }
 

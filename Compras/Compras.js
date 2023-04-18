@@ -11,12 +11,12 @@ var DatosRopa_ZapH = [];
 var DatosRopa_ZapM = [];
 var DatosRopa_Inicial = [
   {
-    Titulo: "Título",
+    Titulo: "TítuloA",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre1.jpg",
     Tipo: "ZapH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloB",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre1.jpg",
     Tipo: "CampH",
   },
@@ -259,16 +259,23 @@ function GeneradorDeCajas(E) {
     Caja.className = "CajaEstilo";
     document.getElementById("CuerpoPag").appendChild(Caja); //Busco La ID del Cuerpo de Pagina y le agrego un elemento Hijo al Padre
 
-    // Creacion de Botones en los Elementos Cajas
-    const BotonComprar = document.createElement("button");
-    Caja.appendChild(BotonComprar);
-    BotonComprar.className = "BotonComprar";
-
     //Creacion de Imagenes segun su Caja
     const Img = document.createElement("img");
     Caja.appendChild(Img);
     Img.className = "EstiloImg";
     Img.src = DatosRopa[E][i].Imagen;
+
+    // Creacion de Botones en los Elementos Cajas
+    const BotonComprar = document.createElement("button");
+    Caja.appendChild(BotonComprar);
+    BotonComprar.className = "BotonComprar";
+    BotonComprar.id = "BotonC" + i;
+    document.getElementById("BotonC" + i).innerHTML = "Comprar";
+
+    //Creacion de Titulo de la Imagen en los Elementos Cajas
+    const Titulos = document.createElement("p");
+    Caja.appendChild(Titulos);
+    Titulos.innerHTML = DatosRopa[E][i].Titulo;
 
     if (Columna < 4) {
       Columna++;
