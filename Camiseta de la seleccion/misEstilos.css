@@ -1,0 +1,61 @@
+*{  margin: 0;
+    padding: 0;}
+.contenido{
+    margin: 3px;
+}
+.caja{
+    display: table-cell;
+    padding: 10px;
+}
+h1{
+    background-color: rgb(70, 70, 241);
+    font-size:  3em;
+    color: white;
+    text-align: center;
+}
+.imagen{
+    max-width: 700px;
+    height: 700 px;
+}
+.center{
+    text-align: center;
+}
+.reseña{
+    color: white;
+    background-color: rgb(161, 195, 238);
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:  1.5em;
+}
+.box{
+    background-color: rgb(90, 200, 239);
+    width: 100px;
+    padding: 10px;
+    margin: 20px;
+    border: 2px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    color: white;
+    background-color: rgb(161, 195, 238);
+    width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size:  2em;
+}
+p2{
+   color: blue;
+}
