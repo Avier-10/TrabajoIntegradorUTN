@@ -31,9 +31,10 @@ p {
 
 #BarraLateral {
   background-color: #9652c2;
+
   height: 100%;
   width: 150px;
-  opacity: 0.98;
+  opacity: 0.9;
   position: fixed;
   transition: 0.5s;
   top: 0px;
@@ -48,7 +49,7 @@ p {
   width: 27px;
   border: 0px;
   opacity: 0.54;
-  background-color:  rgb(243, 128, 185);
+  background-color: rgb(243, 128, 185);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50px 60px;
@@ -71,6 +72,7 @@ p {
   border-style: solid;
   position: sticky;
   border-radius: 20px;
+  box-shadow: 5px 5px 20px #f380b9;
 }
 
 .BotonComprar {
@@ -90,10 +92,11 @@ p {
 }
 .BotonComprar:hover {
   background-color: chartreuse;
+  box-shadow: 2px 2px 0px black;
 }
-.BotonComprar:focus {
-  outline: 2px solid chartreuse;
-  outline-offset: 2px;
+.BotonComprar:active {
+  box-shadow: 0.5px 0.5px 0px black;
+  transform: translateY(2px);
 }
 
 .EstiloImg {
@@ -109,12 +112,13 @@ p {
   border: 0px;
   font-weight: bold;
   background-color: #9652c2;
+  font-size: 18px;
 }
-.BotonFiltro:hover{
-background-color:rgb(243, 128, 185);
-opacity: 0.8;
+.BotonFiltro:hover {
+  background-color: rgb(243, 128, 185);
+  opacity: 0.8;
 }
-.BotonFiltro:active{
+.BotonFiltro:active {
   background-color: aliceblue;
   opacity: 0.3;
 }

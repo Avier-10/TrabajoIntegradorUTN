@@ -22,11 +22,6 @@ var DatosRopa_Inicial = [
   },
   {
     Titulo: "Título",
-    Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer1.jpg",
-    Tipo: "ZapM",
-  },
-  {
-    Titulo: "Título",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer1.jpg",
     Tipo: "CampM",
   },
@@ -162,6 +157,11 @@ var DatosRopa_Inicial = [
   },
   {
     Titulo: "Título",
+    Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer1.jpg",
+    Tipo: "ZapM",
+  },
+  {
+    Titulo: "Título",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre4.jpg",
     Tipo: "BuzoH",
   },
@@ -191,6 +191,7 @@ var DatosRopa_Inicial = [
     Tipo: "ZapM",
   },
 ];
+// Creo un Array que contiene lo datos Filtrados y sin Filtrar
 var DatosRopa = [
   DatosRopa_Inicial,
   DatosRopa_PantalonH,
@@ -201,7 +202,7 @@ var DatosRopa = [
   DatosRopa_CampM,
   DatosRopa_ZapH,
   DatosRopa_ZapM,
-]; // Creo un Array que contiene lo datos Filtrados y sin Filtrar
+]; 
 
 if (Flag == 0) {
   GeneradorDeCajas(E);
@@ -266,11 +267,14 @@ function GeneradorDeCajas(E) {
     Img.src = DatosRopa[E][i].Imagen;
 
     // Creacion de Botones en los Elementos Cajas
+    const Redireccionar = document.createElement("a");
     const BotonComprar = document.createElement("button");
-    Caja.appendChild(BotonComprar);
+    Redireccionar.appendChild(BotonComprar);
+    Caja.appendChild(Redireccionar);
     BotonComprar.className = "BotonComprar";
     BotonComprar.id = "BotonC" + i;
     document.getElementById("BotonC" + i).innerHTML = "Comprar";
+    Redireccionar.href = "/TrabajoIntegradorUTN/Camiseta de la seleccion/index.html";
 
     //Creacion de Titulo de la Imagen en los Elementos Cajas
     const Titulos = document.createElement("p");
