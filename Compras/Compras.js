@@ -21,7 +21,7 @@ var DatosRopa_Inicial = [
     Tipo: "CampH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloC",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer1.jpg",
     Tipo: "CampM",
   },
@@ -202,7 +202,7 @@ var DatosRopa = [
   DatosRopa_CampM,
   DatosRopa_ZapH,
   DatosRopa_ZapM,
-]; 
+];
 
 if (Flag == 0) {
   GeneradorDeCajas(E);
@@ -241,7 +241,6 @@ function GeneradorDeCajas(E) {
     case 5:
       NumBorrar = DatosRopa_CampH.length - 1;
       break;
-    //
     case 6:
       NumBorrar = DatosRopa_CampM.length - 1;
       break;
@@ -269,12 +268,18 @@ function GeneradorDeCajas(E) {
     // Creacion de Botones en los Elementos Cajas
     const Redireccionar = document.createElement("a");
     const BotonComprar = document.createElement("button");
+
     Redireccionar.appendChild(BotonComprar);
     Caja.appendChild(Redireccionar);
+
     BotonComprar.className = "BotonComprar";
     BotonComprar.id = "BotonC" + i;
-    document.getElementById("BotonC" + i).innerHTML = "Comprar";
-    Redireccionar.href = "/TrabajoIntegradorUTN/Camiseta de la seleccion/index.html";
+    BotonComprar.onclick = function () {
+        InformacionRopa(BotonComprar.id,DatosRopa[E]);
+    };
+
+    document.getElementById("BotonC" + i).innerHTML = "Comprar"; // Le pongo el texto a cada Boton
+    Redireccionar.href = "/TrabajoIntegradorUTN/InfoDeRopa/index.html";///
 
     //Creacion de Titulo de la Imagen en los Elementos Cajas
     const Titulos = document.createElement("p");
