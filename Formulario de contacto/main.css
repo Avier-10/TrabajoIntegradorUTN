@@ -18,7 +18,6 @@ header h1{
 
 a{
     font-family: 'Dosis', sans-serif;
-
 }
 
 header p{
@@ -35,13 +34,16 @@ header h2{
 div{
     position: absolute;
     left: 25%;
+  
 }
+
 
 
 .contact label, .contact input, .contact textarea{
      display: block;
      width: 300%;
      margin-bottom: 15px;
+     margin-top: 15px;
      font-family: 'Dosis', sans-serif;
     
 }

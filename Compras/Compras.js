@@ -12,181 +12,253 @@ var DatosRopa_ZapM = [];
 var DatosRopa_Inicial = [
   {
     Titulo: "TítuloA",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre1.jpg",
     Tipo: "ZapH",
   },
   {
     Titulo: "TítuloB",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre1.jpg",
     Tipo: "CampH",
   },
   {
     Titulo: "TítuloC",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer1.jpg",
     Tipo: "CampM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloD",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre1.jpg",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloE",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre2.jpg",
     Tipo: "CampH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloF",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer1.jpg",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloG",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer2.jpg",
     Tipo: "CampM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloH",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer1.jpg",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloI",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre3.jpg",
     Tipo: "CampH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloJ",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer2.jpg",
     Tipo: "ZapM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloK",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre4.jpg",
     Tipo: "CampH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloL",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer2.jpg",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloM",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre1.jpg",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloN",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer3.jpg",
     Tipo: "CampM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloO",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer2.jpg",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloP",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer3.jpg",
     Tipo: "ZapM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloQ",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre2.jpg",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloR",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre2.jpg",
     Tipo: "ZapH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloS",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre5.jpeg",
     Tipo: "CampH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloT",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre2.jpg",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloU",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer3.jpg",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloV",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre3.jpg",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloW",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer4.jpg",
     Tipo: "ZapM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloX",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer4.jpg",
     Tipo: "CampM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloY",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre3.jpg",
     Tipo: "ZapH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloZ",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre3.jpg",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAA",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre4.jpg",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAB",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer4.jpg",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAC",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer3.jpg",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAD",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer1.jpg",
     Tipo: "ZapM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAE",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre4.jpg",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAF",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre4.jpg",
     Tipo: "ZapH",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAG",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer5.jpg",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAH",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre5.jpg",
     Tipo: "BuzoH  ",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAI",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer4.jpg",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "Título",
+    Titulo: "TítuloAJ",
+    Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer5.jpg",
     Tipo: "ZapM",
   },
@@ -275,11 +347,11 @@ function GeneradorDeCajas(E) {
     BotonComprar.className = "BotonComprar";
     BotonComprar.id = "BotonC" + i;
     BotonComprar.onclick = function () {
-        InformacionRopa(BotonComprar.id,DatosRopa[E]);
+      InformacionRopa(BotonComprar.id, DatosRopa[E]);
     };
 
     document.getElementById("BotonC" + i).innerHTML = "Comprar"; // Le pongo el texto a cada Boton
-    Redireccionar.href = "/TrabajoIntegradorUTN/InfoDeRopa/index.html";///
+    Redireccionar.href = "/TrabajoIntegradorUTN/InfoDeRopa/index.html"; ///
 
     //Creacion de Titulo de la Imagen en los Elementos Cajas
     const Titulos = document.createElement("p");

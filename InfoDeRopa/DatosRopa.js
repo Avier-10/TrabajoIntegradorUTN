@@ -3,7 +3,9 @@ var InfArray;
 var InfGuardada = JSON.parse(sessionStorage.getItem("DatoDeRopa"));
 
 console.log(InfGuardada);
-//<img src="" id="imagen" height="600px" malt="" />
+document.getElementById("Titulo").innerHTML = InfGuardada.Titulo;
+
+document.getElementById("descripcion").innerHTML = InfGuardada.Descripcion;
 
 const ImgPost = document.createElement("img");
 document.getElementById("center").appendChild(ImgPost);

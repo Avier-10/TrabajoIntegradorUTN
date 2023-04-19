@@ -56,7 +56,9 @@ p {
 }
 
 #CuerpoPag {
-  background-color: white;
+/*  background-image:url(/TrabajoIntegradorUTN/img/Fondo2.jpg);
+ background-size: 675px 690px;
+*/
   display: grid;
   grid-template-columns: 150px repeat(auto-fit, minmax(300px, auto));
   grid-template-rows: 85px repeat(auto-fill, minmax(400px, auto));
@@ -113,6 +115,7 @@ p {
   font-weight: bold;
   background-color: #9652c2;
   font-size: 18px;
+  font-family: "Roboto";
 }
 .BotonFiltro:hover {
   background-color: rgb(243, 128, 185);
