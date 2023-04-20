@@ -1,9 +1,9 @@
 body{
-background: #f380b9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #5f50a9, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #5f50a9, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-}
+    background: #f380b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5f50a9, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
+    
+    }
 
 header{
     text-align: center;
