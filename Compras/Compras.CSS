@@ -56,6 +56,7 @@ p {
 }
 
 #CuerpoPag {
+  background-image: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
   display: grid;
   grid-template-columns: 150px repeat(auto-fit, minmax(300px, auto));
   grid-template-rows: 85px repeat(auto-fill, minmax(400px, auto));

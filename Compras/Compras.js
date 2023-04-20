@@ -11,255 +11,399 @@ var DatosRopa_ZapH = [];
 var DatosRopa_ZapM = [];
 var DatosRopa_Inicial = [
   {
-    Titulo: "TítuloA",
+    Titulo: "Zapatilla de Hombre",
+    TituloDescripto: "Zapatilla de Hombre Negras",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre1.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapH",
   },
   {
-    Titulo: "TítuloB",
+    Titulo: "Campera de Hombre",
+    TituloDescripto: "Campera de Hombre Negra Nike",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre1.jpg",
+    Precio: "$$$$$",
     Tipo: "CampH",
   },
   {
-    Titulo: "TítuloC",
+    Titulo: "Campera de Mujer",
+    TituloDescripto: "Campera de Mujer Blanco y Rosa",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer1.jpg",
+    Precio: "$$$$$",
     Tipo: "CampM",
   },
   {
-    Titulo: "TítuloD",
+    Titulo: "Pantalon de Hombre",
+    TituloDescripto: "Pantalon de Hombre Negro Nike",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre1.jpg",
+    Precio: "$$$$$",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "TítuloE",
+    Titulo: "Campera de Hombre",
+    TituloDescripto: "Campera de Hombre Negra y Gris Nike",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre2.jpg",
+    Precio: "$$$$$",
     Tipo: "CampH",
   },
   {
-    Titulo: "TítuloF",
+    Titulo: "Calza de Mujer",
+    TituloDescripto: "Calza de Mujer Negra Nike",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer1.jpg",
+    Precio: "$$$$$",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "TítuloG",
+    Titulo: "Campera de Mujer",
+    TituloDescripto: "Campera de Mujer Gris",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer2.jpg",
+    Precio: "$$$$$",
     Tipo: "CampM",
   },
   {
-    Titulo: "TítuloH",
+    Titulo: "Buzo de Mujer",
+    TituloDescripto: "Buzo de Mujer Rosa Nike",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer1.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "TítuloI",
+    Titulo: "Campera de Hombre",
+    TituloDescripto: "Campera de Hombre Negra Nike",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre3.jpg",
+    Precio: "$$$$$",
     Tipo: "CampH",
   },
   {
-    Titulo: "TítuloJ",
+    Titulo: "Zapatilla de Mujer",
+    TituloDescripto: "Zapatillas de Mujer Negras Topper",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer2.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapM",
   },
   {
-    Titulo: "TítuloK",
+    Titulo: "Campera de Hombre",
+    TituloDescripto: "Campera de Hombre Negra Nike",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre4.jpg",
+    Precio: "$$$$$",
     Tipo: "CampH",
   },
   {
-    Titulo: "TítuloL",
+    Titulo: "Calza de Mujer",
+    TituloDescripto: "Calza de Mujer Negra Adidas",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer2.jpg",
+    Precio: "$$$$$",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "TítuloM",
+    Titulo: "Buzo de Hombre",
+    TituloDescripto: "Buzo de Hombre Gris",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre1.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "TítuloN",
+    Titulo: "Campera de Mujer",
+    TituloDescripto: "Campera de Mujer Rosa Nike",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer3.jpg",
+    Precio: "$$$$$",
     Tipo: "CampM",
   },
   {
-    Titulo: "TítuloO",
+    Titulo: "Buzo de Mujer",
+    TituloDescripto: "Buzo de Mujer Gris Nike",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer2.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "TítuloP",
+    Titulo: "Zapatilla de Mujer",
+    TituloDescripto: "Zapatilla de Mujer Gris Puma",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer3.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapM",
   },
   {
-    Titulo: "TítuloQ",
+    Titulo: "Pantalon de Hombre",
+    TituloDescripto: "Pantalon de Hombre Azul Seleccion Argentina",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre2.jpg",
+    Precio: "$$$$$",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "TítuloR",
+    Titulo: "Zapatilla de Hombre",
+    TituloDescripto: "Zapatilla de Hombre Negras Nike",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre2.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapH",
   },
   {
-    Titulo: "TítuloS",
+    Titulo: "Campera de Hombre",
+    TituloDescripto: "Campera de Hombre Celeste Adidas",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperahombre5.jpeg",
+    Precio: "$$$$$",
     Tipo: "CampH",
   },
   {
-    Titulo: "TítuloT",
+    Titulo: "Buzo de Hombre",
+    TituloDescripto: "Buzo de Hombre Negro",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre2.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "TítuloU",
+    Titulo: "Buzo de Mujer",
+    TituloDescripto: "Buzo de Mujer Gris",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer3.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "TítuloV",
+    Titulo: "Pantalon de Hombre",
+    TituloDescripto: "Pantalon de Hombre Negro",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre3.jpg",
+    Precio: "$$$$$",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "TítuloW",
+    Titulo: "Zapatilla de Mujer",
+    TituloDescripto: "Zapatillas de Mujer Negras Adidas",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer4.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapM",
   },
   {
-    Titulo: "TítuloX",
+    Titulo: "Campera de Mujer",
+    TituloDescripto: "Campera de Mujer Rosa Nike",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/camperamujer4.jpg",
+    Precio: "$$$$$",
     Tipo: "CampM",
   },
   {
-    Titulo: "TítuloY",
+    Titulo: "Zapatilla de Hombre",
+    TituloDescripto: "Zapatilla de Hombre Negras Topper",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre3.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapH",
   },
   {
-    Titulo: "TítuloZ",
+    Titulo: "Buzo de Hombre",
+    TituloDescripto: "Buzo de Hombre Negro Adidas",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre3.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "TítuloAA",
+    Titulo: "Pantalon de Hombre",
+    TituloDescripto: "Pantalon de Hombre Gris Puma",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/pantalonhombre4.jpg",
+    Precio: "$$$$$",
     Tipo: "PantalonH",
   },
   {
-    Titulo: "TítuloAB",
+    Titulo: "Buzo de Mujer",
+    TituloDescripto: "Buzo de Mujer Negro",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer4.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "TítuloAC",
+    Titulo: "Calza de Mujer",
+    TituloDescripto: "Calza de Mujer Negro",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer3.jpg",
+    Precio: "$$$$$",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "TítuloAD",
+    Titulo: "Zapatilla de Mujer",
+    TituloDescripto: "Zapatilla de Mujer Rosa",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer1.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapM",
   },
   {
-    Titulo: "TítuloAE",
+    Titulo: "Buzo de Hombre",
+    TituloDescripto: "Buzo de Hombre Negro Nike",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre4.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoH",
   },
   {
-    Titulo: "TítuloAF",
+    Titulo: "Zapatilla de Hombre",
+    TituloDescripto: "Zapatilla de Hombre Negras",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillashombre4.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapH",
   },
   {
-    Titulo: "TítuloAG",
+    Titulo: "Buzo de Mujer",
+    TituloDescripto: "Buzo de Mujer Negro",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzomujer5.jpg",
+    Precio: "$$$$$",
     Tipo: "BuzoM",
   },
   {
-    Titulo: "TítuloAH",
+    Titulo: "Buzo de Hombre",
+    TituloDescripto: "Buzo de Hombre Negro,gris y blanco",
     Descripcion:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/buzohombre5.jpg",
-    Tipo: "BuzoH  ",
+    Precio: "$$$$$",
+    Tipo: "BuzoH",
   },
   {
-    Titulo: "TítuloAI",
+    Titulo: "Calza de Mujer",
+    TituloDescripto: "Calza de Mujer Negro",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/calzamujer4.jpg",
+    Precio: "$$$$$",
     Tipo: "CalzaM",
   },
   {
-    Titulo: "TítuloAJ",
+    Titulo: "Zapatilla de Mujer",
+    TituloDescripto: "Zapatilla de Mujer Negras",
     Descripcion:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
+    DescripcionRopa:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras.",
     Imagen: "/TrabajoIntegradorUTN/img/zapatillasmujer5.jpg",
+    Precio: "$$$$$",
     Tipo: "ZapM",
   },
 ];

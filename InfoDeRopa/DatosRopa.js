@@ -7,6 +7,12 @@ document.getElementById("Titulo").innerHTML = InfGuardada.Titulo;
 
 document.getElementById("descripcion").innerHTML = InfGuardada.Descripcion;
 
+document.getElementById("h2").innerHTML = InfGuardada.TituloDescripto;
+
+document.getElementById("p2").innerHTML = InfGuardada.DescripcionRopa;
+
+document.getElementById("Valor").innerHTML = "Precio: " + InfGuardada.Precio;
+
 const ImgPost = document.createElement("img");
 document.getElementById("center").appendChild(ImgPost);
 ImgPost.id = "imagen";
