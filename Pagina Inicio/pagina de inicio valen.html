@@ -1,4 +1,7 @@
-<title>Mi tienda de ropa</title>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi tienda de ropa</title>
 
     <style>
       /* Estilo para el encabezado */
@@ -74,26 +77,29 @@
     <header>
       <meta charset="UTF-8" />
       
-      <link rel="stylesheet" href="style.css">
-       
+      <link rel="stylesheet" href="style.css"
     </header>
     <header id="header">
       <div class="logo">
           <a href="#"><img src="/TrabajoIntegradorUTN/img/Logo Activate.png" alt="logo"></a>
       </div>
+      
       <nav>
           <ul class="nav-links">
-              <li><a href="#">Tienda</a></li>
+              <li><a href="/TrabajoIntegradorUTN/Compras/compras.html">Tienda</a></li>
               <li><a href="#" >Carrito</a></li>
-              <li><a href="#">¿Quiénes somos?</a></li>
+              <li><a href="/TrabajoIntegradorUTN/PresentacionPersonal/PresentacionPersonal.html">¿Quiénes somos?</a></li>
           </ul>
       </nav>
-      <a href="#" class="btn"><button>Contacto</button></a>
+      
+      <a href="/TrabajoIntegradorUTN/Formulario de contacto/formulario.html"class="btn"><button>Contacto</button></a>
   </header>
     <main>
       <div class="row">
+      
         <a
           href="/TrabajoIntegradorUTN/Compras/Compras.html"
+          onclick="FiltPantalon()"
           class="product-container"
         >
           <div>
@@ -101,29 +107,54 @@
             <p>Remera mas calza Deportiva</p>
           </div>
         </a>
-        <div class="product-container">
+        <a
+        href="/TrabajoIntegradorUTN/Compras/Compras.html"
+        onclick="FiltBuzoH()"
+        class="product-container"
+      >
+        <div>
           <img src="/TrabajoIntegradorUTN/img/ropa4.jpg" alt="Producto 2" />
           <p>Conjunto deportivo Completo</p>
         </div>
-        <div class="product-container">
+        
+        <a
+        href="/TrabajoIntegradorUTN/Compras/Compras.html"
+        onclick="FiltCalzaM()"
+        class="product-container"
+      >
+      <div>
           <img src="/.trabajoIntegradorUTN/img/ropa5.jpg" alt="Producto 3" />
           <p>Conjunto completo de la seleccion</p>
         </div>
-      </div>
-      <div class="row">
-        <div class="product-container">
-          <img src="/TrabajoIntegradorUTN/img/clase7.jpg" alt="Producto 4" />
-          <p>Zapatillas Nike</p>
-        </div>
-        <div class="product-container">
-          <img src="/TrabajoIntegradorUTN/img/ropa8.jpg" alt="Producto 3" />
+
+      
+      <a></div>
+        <div class="a"></div>
+         <a
+            href="/TrabajoIntegradorUTN/Compras/Compras.html"
+            onclick="FiltPantalon()"
+            class="product-container"
+          >
+            <div>
+              <img src="/TrabajoIntegradorUTN/img/clase7.jpg" alt="Producto 4" />
+              <p>Zapatillas Nike</p>
+            </div>
+          
+          
+       
+          <a
+          href="/TrabajoIntegradorUTN/Compras/compras.html"
+          onclick="FiltCampM()"
+          class="product-container"
+        >
+        
+          <img src="/TrabajoIntegradorUTN/img/ropa8.jpg" alt="Producto 5" />
           <p>Campera Deportiva</p>
-        </div>
-        <div class="product-container">
-          <img src="/TrabajoIntegradorUTN/img/ropa10.jpg" alt="Producto 3" />
-          <p>Remera basica de entrenamiento</p>
-        </div>
-      </div>
+        
+    
+        
+      
+  
 
       <a href="#" class="flecha">Ver más productos</a>
     </main>
