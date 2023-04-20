@@ -16,6 +16,10 @@ main {
   justify-content: space-between;
 }
 
+a{
+  text-decoration:none;
+}
+
 .row {
   width: 100%;
   display: flex;
@@ -35,7 +39,6 @@ main {
   display: inline-block;
   vertical-align: top;
 }
-
 .product-container:hover {
   transform: scale(1.1);
 }
@@ -52,7 +55,6 @@ main {
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
-
 .flecha:hover {
   transform: translateY(-3px);
 }

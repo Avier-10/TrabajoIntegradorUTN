@@ -56,9 +56,6 @@ p {
 }
 
 #CuerpoPag {
-/*  background-image:url(/TrabajoIntegradorUTN/img/Fondo2.jpg);
- background-size: 675px 690px;
-*/
   display: grid;
   grid-template-columns: 150px repeat(auto-fit, minmax(300px, auto));
   grid-template-rows: 85px repeat(auto-fill, minmax(400px, auto));
@@ -75,6 +72,9 @@ p {
   position: sticky;
   border-radius: 20px;
   box-shadow: 5px 5px 20px #f380b9;
+}
+.CajaEstilo:hover{
+  transform: scale(1.1);
 }
 
 .BotonComprar {
